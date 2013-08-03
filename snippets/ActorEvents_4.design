@@ -24,7 +24,7 @@
                     <and comment="false" id="0" x="0" y="0">
                         <noteq comment="false" id="0" x="0" y="0">
                             <get-val-2-1 comment="false" id="0" x="0" y="0"/>
-                            <int id="1" val="0"/>
+                            <int id="1" val="90"/>
                         </noteq>
                         <noteq comment="false" id="1" x="0" y="0">
                             <get-val-2-1 comment="false" id="0" x="0" y="0"/>
@@ -36,7 +36,7 @@
                     <group eventID="1" id="-1">
                         <setvel comment="false" x="37" y="191">
                             <ACTOR eid="this" id="0"/>
-                            <int id="1" val="1"/>
+                            <int id="1" val="91"/>
                             <int id="2" val="50"/>
                         </setvel>
                         <setav comment="false" x="37" y="218">
