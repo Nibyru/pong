@@ -12,9 +12,9 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="63" name="atras 1" sx="1.0" sy="1.0" x="645" y="461" z="0"/>
-        <actor a="0.0" aid="2" c="false" group="3" id="65" name="nibyru 2" sx="0.828" sy="0.832" x="169" y="-1" z="0"/>
-        <actor a="0.0" aid="3" c="false" group="3" id="67" name="nibyru2 3" sx="1.0" sy="1.0" x="139" y="393" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="63" name="atras 1" sx="1.0" sy="1.0" x="644" y="458" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="65" name="nibyru 2" sx="0.592" sy="0.544" x="178" y="5" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="67" name="nibyru2 3" sx="0.7032967" sy="0.5584416" x="158" y="374" z="0"/>
     </actors>
     <snippets/>
     <terrain/>
