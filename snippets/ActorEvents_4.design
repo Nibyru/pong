@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <setvel comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <randint comment="false" id="1" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="360"/>
+                    </randint>
+                    <int id="2" val="50"/>
+                </setvel>
+                <setav comment="false" x="26" y="72">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="40"/>
+                </setav>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <rotate comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="360"/>
+                </rotate>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="5" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <play-sound4 comment="false" x="26" y="47">
+                    <int id="0" val="0"/>
+                    <SOUND eid="14" id="1"/>
+                </play-sound4>
+            </group>
+            <ACTORTYPE eid="4" id="0"/>
+            <ACTORTYPE eid="0" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <play-sound4 comment="false" x="26" y="47">
+                    <int id="0" val="0"/>
+                    <SOUND eid="14" id="1"/>
+                </play-sound4>
+            </group>
+            <ACTORTYPE eid="4" id="0"/>
+            <ACTORTYPE eid="2" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <event-collide-typetotype comment="false" x="24" y="25">
+            <group eventID="4" id="-1">
+                <set-xy comment="false" x="35" y="57">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="388"/>
+                </set-xy>
+                <set-xy comment="false" x="35" y="84">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="288"/>
+                </set-xy>
+                <setvel comment="false" x="35" y="111">
+                    <ACTOR eid="this" id="0"/>
+                    <randint comment="false" id="1" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="360"/>
+                    </randint>
+                    <int id="2" val="50"/>
+                </setvel>
+            </group>
+            <ACTORTYPE eid="4" id="0"/>
+            <ACTORTYPE eid="16" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="7" id="-1"/>
+    <group eventID="8" id="0">
+        <event-collide-typetotype comment="false" x="24" y="25">
+            <group eventID="4" id="-1">
+                <set-xy comment="false" x="35" y="57">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="388"/>
+                </set-xy>
+                <set-xy comment="false" x="35" y="84">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="288"/>
+                </set-xy>
+                <setvel comment="false" x="35" y="111">
+                    <ACTOR eid="this" id="0"/>
+                    <randint comment="false" id="1" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="360"/>
+                    </randint>
+                    <int id="2" val="50"/>
+                </setvel>
+            </group>
+            <ACTORTYPE eid="4" id="0"/>
+            <ACTORTYPE eid="11" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="8" id="-1"/>
+    <group eventID="9" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="9" id="-1">
+                <recycle comment="false" x="26" y="47">
+                    <collide-member-of-group comment="false" id="0" x="0" y="0"/>
+                </recycle>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <GROUP eid="7" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="9" id="-1"/>
+</groups>
