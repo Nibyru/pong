@@ -3,18 +3,48 @@
     <group eventID="1" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <setvel comment="false" x="26" y="40">
-                    <ACTOR eid="this" id="0"/>
-                    <randint comment="false" id="1" x="0" y="0">
+                <set-val-2-1 comment="false" x="26" y="40">
+                    <randint comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                         <int id="1" val="360"/>
                     </randint>
-                    <int id="2" val="50"/>
-                </setvel>
-                <setav comment="false" x="26" y="72">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="40"/>
-                </setav>
+                </set-val-2-1>
+                <if comment="false" x="26" y="65">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="37" y="100">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-2-1 comment="false" id="1" x="0" y="0"/>
+                            <int id="2" val="50"/>
+                        </setvel>
+                        <setav comment="false" x="37" y="132">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="40"/>
+                        </setav>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <noteq comment="false" id="0" x="0" y="0">
+                            <get-val-2-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </noteq>
+                        <noteq comment="false" id="1" x="0" y="0">
+                            <get-val-2-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="270"/>
+                        </noteq>
+                    </and>
+                </if>
+                <else comment="false" x="26" y="171">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="37" y="191">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="50"/>
+                        </setvel>
+                        <setav comment="false" x="37" y="218">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="40"/>
+                        </setav>
+                    </group>
+                </else>
             </group>
         </init>
     </group>
