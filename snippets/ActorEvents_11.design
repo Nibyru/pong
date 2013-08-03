@@ -8,6 +8,9 @@
                     <int id="1" val="0"/>
                     <int id="2" val="0"/>
                 </draw-text>
+                <set-color comment="false" x="26" y="65">
+                    <color b="51" g="51" id="0" r="255"/>
+                </set-color>
             </group>
         </draw>
     </group>
