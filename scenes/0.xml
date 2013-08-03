@@ -11,8 +11,8 @@
     <foregrounds/>
     <joints/>
     <regions>
-        <region b="64" g="64" h="120" id="0" name="gol" pts="4,-175.0,60.0,175.0,60.0,175.0,-60.0,-175.0,-60.0" r="64" type="box" w="350" x="224" y="240"/>
-        <region b="64" g="64" h="93" id="1" name="hub" pts="4,0.0,0.0,0.0,93.0,804.0,93.0,804.0,0.0" r="64" type="box" w="804" x="-3" y="-2"/>
+        <region b="64" g="64" h="120" id="0" name="gol" pts="4,-175.0,-60.0,175.0,-60.0,175.0,60.0,-175.0,60.0" r="64" type="box" w="350" x="224" y="240"/>
+        <region b="64" g="64" h="93" id="1" name="hub" pts="4,804.0,0.0,804.0,93.0,0.0,93.0,0.0,0.0" r="64" type="box" w="804" x="-3" y="-2"/>
     </regions>
     <terrainRegions/>
     <actors>
@@ -23,8 +23,6 @@
         <actor a="0.0" aid="5" c="false" group="8" id="4" name="pelota 5" sx="1.0" sy="1.0" x="388" y="288" z="1"/>
         <actor a="0.0" aid="6" c="false" group="5" id="11" name="arco1 6" sx="1.0" sy="1.0" x="-1" y="35" z="1"/>
         <actor a="0.0" aid="7" c="false" group="5" id="16" name="arco2 7" sx="1.0" sy="1.0" x="787" y="38" z="1"/>
-        <actor a="0.0" aid="8" c="false" group="9" id="56" name="tri1 8" sx="1.0" sy="1.0" x="362" y="34" z="0"/>
-        <actor a="0.0" aid="9" c="false" group="9" id="58" name="tri2 9" sx="1.0" sy="1.0" x="364" y="539" z="0"/>
     </actors>
     <snippets/>
     <terrain/>
