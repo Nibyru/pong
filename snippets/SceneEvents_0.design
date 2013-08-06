@@ -7,6 +7,57 @@
                     <int id="0" val="1"/>
                     <SOUND eid="15" id="1"/>
                 </play-sound4>
+                <create-actor3 comment="false" x="26" y="67">
+                    <ACTORTYPE eid="4" id="0"/>
+                    <int id="1" val="388"/>
+                    <int id="2" val="288"/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <set-game-val-2 comment="false" x="26" y="94">
+                    <int id="0" val="1"/>
+                </set-game-val-2>
+                <set-val-5-7 comment="false" x="26" y="114">
+                    <randint comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="360"/>
+                    </randint>
+                </set-val-5-7>
+                <if comment="false" x="26" y="139">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="37" y="174">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <get-val-5-7 comment="false" id="1" x="0" y="0"/>
+                            <int id="2" val="50"/>
+                        </setvel>
+                        <setav comment="false" x="37" y="206">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="40"/>
+                        </setav>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <noteq comment="false" id="0" x="0" y="0">
+                            <get-val-5-7 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="90"/>
+                        </noteq>
+                        <noteq comment="false" id="1" x="0" y="0">
+                            <get-val-5-7 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="270"/>
+                        </noteq>
+                    </and>
+                </if>
+                <else comment="false" x="26" y="245">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="37" y="265">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="91"/>
+                            <int id="2" val="50"/>
+                        </setvel>
+                        <setav comment="false" x="37" y="292">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="40"/>
+                        </setav>
+                    </group>
+                </else>
             </group>
         </init>
     </group>

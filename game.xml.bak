@@ -9,14 +9,12 @@
         <group desc="" id="8" name="pelota"/>
     </groups>
     <cgroups>
-        <cgroup g1="7" g2="8"/>
         <cgroup g1="6" g2="8"/>
-        <cgroup g1="1" g2="3"/>
-        <cgroup g1="1" g2="0"/>
-        <cgroup g1="3" g2="3"/>
         <cgroup g1="8" g2="8"/>
         <cgroup g1="8" g2="0"/>
+        <cgroup g1="8" g2="7"/>
         <cgroup g1="8" g2="5"/>
+        <cgroup g1="3" g2="3"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38"/>
@@ -34,6 +32,7 @@
     </attcats>
     <props/>
     <attributes>
+        <number cid="-1" id="2" name="cantidad-pelotas" save="true" value="0.0"/>
         <number cid="-1" id="0" name="marcador1" save="true" value="0.0"/>
         <number cid="-1" id="1" name="marcador2" save="true" value="0.0"/>
     </attributes>

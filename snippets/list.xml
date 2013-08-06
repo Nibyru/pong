@@ -14,14 +14,14 @@
         <number default="0" desc="" dropdown="" fullname="y-speed-pelota" hidden="false" id="3" name="_yspeedpelota" order="2"/>
         <blocks/>
         <events>
-            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
             <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
             <event displayName="Copy of Type - Type" enabled="true" id="5" name="event-collide-typetotype" order="5" repeats="true"/>
             <event displayName="Copy of Copy of Type - Type" enabled="true" id="6" name="event-collide-typetotype" order="6" repeats="true"/>
-            <event displayName="Copy of Type - Type" enabled="true" id="7" name="event-collide-typetotype" order="7" repeats="true"/>
-            <event displayName="Copy of Copy of Type - Type" enabled="true" id="8" name="event-collide-typetotype" order="8" repeats="true"/>
             <event displayName="Actor - Group" enabled="true" id="9" name="event-collide-actortogroup" order="9" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="10" name="event-collide-actortotype" order="10" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="11" name="event-collide-actortotype" order="11" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="12" name="event-collide-actortotype" order="12" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="13" name="event-collide-actortotype" order="13" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_6" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="3" language="" name="ActorEvents_6" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
@@ -38,6 +38,7 @@
         <game-attribute default="" desc="" dropdown="" fullname="win" hidden="false" id="3" name="_win" order="2"/>
         <number default="0" desc="" dropdown="" fullname="posicion-tarjeta" hidden="false" id="5" name="_posiciontarjeta" order="3"/>
         <number default="0" desc="" dropdown="" fullname="valor-tarjeta" hidden="false" id="6" name="_valortarjeta" order="4"/>
+        <number default="0.0" desc="" dropdown="" fullname="direccion-pelota" hidden="false" id="7" name="_direccionpelota" order="5"/>
         <blocks/>
         <events>
             <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
@@ -125,14 +126,12 @@
         <blocks/>
         <events>
             <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
-            <event displayName="Type - Type" enabled="true" id="2" name="event-collide-typetotype" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_16" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="11" language="" name="ActorEvents_16" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
         <events>
             <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
-            <event displayName="Copy of Type - Type" enabled="true" id="2" name="event-collide-typetotype" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="12" language="" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" scenespecific="true" shared="false" type="scene">

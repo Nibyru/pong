@@ -20,7 +20,7 @@
         <actor a="0.0" aid="2" c="false" group="0" id="2" name="riber 2" sx="0.6" sy="0.6146789" x="670" y="192" z="1"/>
         <actor a="0.0" aid="3" c="false" group="6" id="6" name="barra1 3" sx="1.0" sy="1.0" x="1" y="0" z="1"/>
         <actor a="0.0" aid="4" c="false" group="6" id="8" name="barra2 4" sx="1.0" sy="1.0" x="0" y="569" z="1"/>
-        <actor a="0.0" aid="5" c="false" group="8" id="4" name="pelota 5" sx="1.0" sy="1.0" x="388" y="288" z="1"/>
+        <actor a="0.0" aid="5" c="false" group="8" id="4" name="pelota 5" sx="1.0" sy="1.0" x="371" y="-44" z="1"/>
         <actor a="0.0" aid="6" c="false" group="5" id="11" name="arco1 6" sx="1.0" sy="1.0" x="-1" y="35" z="1"/>
         <actor a="0.0" aid="7" c="false" group="5" id="16" name="arco2 7" sx="1.0" sy="1.0" x="787" y="38" z="1"/>
     </actors>
