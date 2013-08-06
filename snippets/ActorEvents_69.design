@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-press-release comment="false" x="0" y="6">
+            <group eventID="1" id="-1">
+                <set-val-28-2 comment="false" x="11" y="33">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-28-2>
+                <pause-unpause comment="false" x="11" y="58">
+                    <int id="0" val="1"/>
+                </pause-unpause>
+                <set-game-att comment="false" x="11" y="85">
+                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="0"/>
+                </set-game-att>
+                <set-game-att comment="false" x="11" y="110">
+                    <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="0"/>
+                </set-game-att>
+                <play-sound4 comment="false" x="11" y="135">
+                    <int id="0" val="1"/>
+                    <SOUND eid="15" id="1"/>
+                </play-sound4>
+                <create-actor3 comment="false" x="11" y="162">
+                    <ACTORTYPE eid="4" id="0"/>
+                    <int id="1" val="388"/>
+                    <int id="2" val="288"/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <set-game-val-2 comment="false" x="11" y="189">
+                    <int id="0" val="1"/>
+                </set-game-val-2>
+                <set-val-28-1 comment="false" x="11" y="209">
+                    <randint comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="360"/>
+                    </randint>
+                </set-val-28-1>
+                <if comment="false" x="11" y="234">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="22" y="269">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <get-val-28-1 comment="false" id="1" x="0" y="0"/>
+                            <int id="2" val="50"/>
+                        </setvel>
+                        <setav comment="false" x="22" y="301">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="40"/>
+                        </setav>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <noteq comment="false" id="0" x="0" y="0">
+                            <get-val-28-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="90"/>
+                        </noteq>
+                        <noteq comment="false" id="1" x="0" y="0">
+                            <get-val-28-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="270"/>
+                        </noteq>
+                    </and>
+                </if>
+                <else comment="false" x="11" y="340">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="22" y="360">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="91"/>
+                            <int id="2" val="50"/>
+                        </setvel>
+                        <setav comment="false" x="22" y="387">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="40"/>
+                        </setav>
+                    </group>
+                </else>
+            </group>
+            <int id="0" val="0"/>
+        </event-mouse-press-release>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

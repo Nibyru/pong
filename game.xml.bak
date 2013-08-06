@@ -9,12 +9,14 @@
         <group desc="" id="8" name="pelota"/>
     </groups>
     <cgroups>
+        <cgroup g1="1" g2="3"/>
+        <cgroup g1="1" g2="0"/>
+        <cgroup g1="5" g2="8"/>
         <cgroup g1="6" g2="8"/>
-        <cgroup g1="8" g2="8"/>
-        <cgroup g1="8" g2="0"/>
-        <cgroup g1="8" g2="7"/>
-        <cgroup g1="8" g2="5"/>
         <cgroup g1="3" g2="3"/>
+        <cgroup g1="0" g2="8"/>
+        <cgroup g1="8" g2="8"/>
+        <cgroup g1="8" g2="7"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38"/>
@@ -60,7 +62,7 @@
         <poly id="20" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
     </collisions>
     <atlases>
-        <atlas dirty="true" id="0" members="0,2,4,6,8,11,16,42,44,46,48,50,52,54,61,63,65,67,10,60,13" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="0" members="0,2,4,6,8,11,16,42,44,46,48,50,52,54,61,63,65,67,69,10,60,13" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" start="true" target="0"/>
