@@ -108,6 +108,7 @@
         </snippets>
     </actor>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="600" id="10" name="campo" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="800" xpf="1.0" ypf="1.0"/>
+    <music desc="" id="71" loop="true" name="carta" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <custom-block blocktag="custom-24" blocktype="ACTION" code="sayToScene(&quot;Items Remaining&quot;, &quot;DecrementScore&quot;, ~);" desc="" global="false" gui="Decrement Score By %0" id="24" message="DecrementScore" name="DecrementScore" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Amount" order="0" type="NUMBER"/>
     </custom-block>

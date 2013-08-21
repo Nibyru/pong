@@ -58,7 +58,11 @@
     <group eventID="10" id="0">
         <event-collide-actortotype comment="false" x="15" y="15">
             <group eventID="10" id="-1">
-                <set-val-2-2 comment="false" x="26" y="47">
+                <play-sound4 comment="false" x="26" y="47">
+                    <int id="0" val="0"/>
+                    <SOUND eid="71" id="1"/>
+                </play-sound4>
+                <set-val-2-2 comment="false" x="26" y="74">
                     <times comment="false" id="0" x="0" y="0">
                         <get-dxy comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
@@ -67,7 +71,7 @@
                         <int id="1" val="2"/>
                     </times>
                 </set-val-2-2>
-                <set-val-2-3 comment="false" x="26" y="85">
+                <set-val-2-3 comment="false" x="26" y="112">
                     <times comment="false" id="0" x="0" y="0">
                         <get-dxy comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
@@ -76,12 +80,12 @@
                         <int id="1" val="2"/>
                     </times>
                 </set-val-2-3>
-                <set-dxy comment="false" x="26" y="123">
+                <set-dxy comment="false" x="26" y="150">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="0"/>
                     <get-val-2-2 comment="false" id="2" x="0" y="0"/>
                 </set-dxy>
-                <set-dxy comment="false" x="26" y="155">
+                <set-dxy comment="false" x="26" y="182">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="1"/>
                     <get-val-2-3 comment="false" id="2" x="0" y="0"/>
@@ -107,13 +111,17 @@
                     </get-xy>
                     <int id="3" val="0"/>
                 </create-actor3>
-                <set-game-val-2 comment="false" x="26" y="87">
+                <play-sound4 comment="false" x="26" y="87">
+                    <int id="0" val="0"/>
+                    <SOUND eid="71" id="1"/>
+                </play-sound4>
+                <set-game-val-2 comment="false" x="26" y="114">
                     <plus comment="false" id="0" x="0" y="0">
                         <get-game-val-2 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="1"/>
                     </plus>
                 </set-game-val-2>
-                <set-val-2-2 comment="false" x="26" y="117">
+                <set-val-2-2 comment="false" x="26" y="144">
                     <plus comment="false" id="0" x="0" y="0">
                         <get-dxy comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
@@ -122,7 +130,7 @@
                         <int id="1" val="10"/>
                     </plus>
                 </set-val-2-2>
-                <set-val-2-3 comment="false" x="26" y="155">
+                <set-val-2-3 comment="false" x="26" y="182">
                     <plus comment="false" id="0" x="0" y="0">
                         <get-dxy comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
@@ -131,12 +139,12 @@
                         <int id="1" val="10"/>
                     </plus>
                 </set-val-2-3>
-                <set-dxy comment="false" x="26" y="193">
+                <set-dxy comment="false" x="26" y="220">
                     <ACTOR eid="lastcreated" id="0"/>
                     <int id="1" val="0"/>
                     <get-val-2-2 comment="false" id="2" x="0" y="0"/>
                 </set-dxy>
-                <set-dxy comment="false" x="26" y="225">
+                <set-dxy comment="false" x="26" y="252">
                     <ACTOR eid="lastcreated" id="0"/>
                     <int id="1" val="1"/>
                     <get-val-2-3 comment="false" id="2" x="0" y="0"/>
