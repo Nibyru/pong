@@ -199,9 +199,9 @@
     </actor>
     <sprite atlasID="0" default="0" desc="" height="219" id="1" name="player1" shared="false" width="60">
         <anim across="1" atlasID="-1" down="1" durations="100" height="219" id="0" loop="true" name="Animation 0" numframes="1" originx="30" originy="109" width="60">
-            <circle data="28,3,2" density="0.1" fric="0.2" gid="-1000" id="1" name="Circle" rest="0.0" sensor="false"/>
-            <poly data="4,15,31,45,31,45,181,15,181" density="0.1" fric="0.2" gid="-1000" id="2" name="Box" rest="0.0" sensor="false"/>
-            <circle data="28,2,163" density="0.1" fric="0.2" gid="-1000" id="3" name="Circle" rest="0.0" sensor="false"/>
+            <circle data="28,3,2" density="0.1" fric="0.2" gid="5" id="1" name="Circle" rest="0.0" sensor="false"/>
+            <poly data="4,14,31,44,31,44,181,14,181" density="0.1" fric="0.2" gid="-1000" id="2" name="Box" rest="0.0" sensor="false"/>
+            <circle data="28,2,163" density="0.1" fric="0.2" gid="5" id="3" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <sprite atlasID="0" default="0" desc="" height="219" id="3" name="riber" shared="false" width="60">

@@ -265,4 +265,144 @@
         </event-collide-typetotype>
     </group>
     <group eventID="12" id="-1"/>
+    <group eventID="13" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="12" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="12" id="-1">
+                        <scaleTo comment="false" x="37" y="72">
+                            <ACTOR eid="2" id="0"/>
+                            <int id="1" val="100"/>
+                            <int id="2" val="25"/>
+                            <int id="3" val="1"/>
+                            <int id="4" val="1"/>
+                        </scaleTo>
+                    </group>
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="111">
+                    <group eventID="12" id="-1">
+                        <scaleTo comment="false" x="37" y="131">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="100"/>
+                            <int id="2" val="25"/>
+                            <int id="3" val="1"/>
+                            <int id="4" val="1"/>
+                        </scaleTo>
+                    </group>
+                </else>
+            </group>
+            <ACTORTYPE eid="4" id="0"/>
+            <ACTORTYPE eid="46" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="13" id="-1"/>
+    <group eventID="14" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="12" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="12" id="-1">
+                        <fadeInOut comment="false" x="37" y="72">
+                            <ACTOR eid="2" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="1"/>
+                            <int id="3" val="3"/>
+                        </fadeInOut>
+                        <dolater comment="false" x="37" y="99">
+                            <group eventID="14" id="-1">
+                                <fadeInOut comment="false" x="48" y="126">
+                                    <ACTOR eid="2" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="1"/>
+                                    <int id="3" val="1"/>
+                                </fadeInOut>
+                            </group>
+                            <int id="0" val="5"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="177">
+                    <group eventID="12" id="-1">
+                        <fadeInOut comment="false" x="37" y="197">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="1"/>
+                            <int id="3" val="3"/>
+                        </fadeInOut>
+                        <dolater comment="false" x="37" y="224">
+                            <group eventID="14" id="-1">
+                                <fadeInOut comment="false" x="48" y="251">
+                                    <ACTOR eid="1" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="1"/>
+                                    <int id="3" val="1"/>
+                                </fadeInOut>
+                            </group>
+                            <int id="0" val="5"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                </else>
+            </group>
+            <ACTORTYPE eid="4" id="0"/>
+            <ACTORTYPE eid="52" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="14" id="-1"/>
+    <group eventID="15" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="12" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="12" id="-1">
+                        <set-attribute comment="false" x="37" y="72">
+                            <ACTOR eid="2" id="0"/>
+                            <int id="1" val="2 Way Vertical Movement"/>
+                            <int id="2" val="_Speed"/>
+                            <int id="3" val="-30"/>
+                        </set-attribute>
+                        <dolater comment="false" x="37" y="99">
+                            <group eventID="12" id="-1">
+                                <set-attribute comment="false" x="48" y="126">
+                                    <ACTOR eid="2" id="0"/>
+                                    <int id="1" val="2 Way Vertical Movement"/>
+                                    <int id="2" val="_Speed"/>
+                                    <int id="3" val="30"/>
+                                </set-attribute>
+                            </group>
+                            <int id="0" val="5"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="177">
+                    <group eventID="12" id="-1">
+                        <set-attribute comment="false" x="37" y="197">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="2 Way Vertical Movement"/>
+                            <int id="2" val="_Speed"/>
+                            <int id="3" val="-30"/>
+                        </set-attribute>
+                        <dolater comment="false" x="37" y="224">
+                            <group eventID="12" id="-1">
+                                <set-attribute comment="false" x="48" y="251">
+                                    <ACTOR eid="1" id="0"/>
+                                    <int id="1" val="2 Way Vertical Movement"/>
+                                    <int id="2" val="_Speed"/>
+                                    <int id="3" val="30"/>
+                                </set-attribute>
+                            </group>
+                            <int id="0" val="5"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                </else>
+            </group>
+            <ACTORTYPE eid="4" id="0"/>
+            <ACTORTYPE eid="54" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="15" id="-1"/>
 </groups>
