@@ -13,8 +13,8 @@
     <terrainRegions/>
     <actors>
         <actor a="0.0" aid="1" c="false" group="3" id="63" name="atras 1" sx="1.0" sy="1.0" x="644" y="458" z="0"/>
-        <actor a="0.0" aid="2" c="false" group="3" id="65" name="nibyru 2" sx="0.592" sy="0.544" x="178" y="5" z="0"/>
-        <actor a="0.0" aid="3" c="false" group="3" id="67" name="nibyru2 3" sx="0.7032967" sy="0.5584416" x="158" y="374" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="65" name="nibyru 2" sx="0.304" sy="0.304" x="-145" y="242" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="67" name="nibyru2 3" sx="0.4029304" sy="0.38961038" x="-169" y="502" z="0"/>
     </actors>
     <snippets/>
     <terrain/>

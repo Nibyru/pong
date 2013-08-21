@@ -91,12 +91,7 @@
             <group eventID="3" id="-1">
                 <if comment="false" x="26" y="40">
                     <group eventID="3" id="-1">
-                        <draw-text comment="false" x="37" y="70">
-                            <int id="0" val="game over"/>
-                            <int id="1" val="100"/>
-                            <int id="2" val="100"/>
-                        </draw-text>
-                        <pause-unpause comment="false" x="37" y="90">
+                        <pause-unpause comment="false" x="37" y="70">
                             <int id="0" val="0"/>
                         </pause-unpause>
                     </group>

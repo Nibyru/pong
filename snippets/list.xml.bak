@@ -214,4 +214,22 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet attachedevent="false" class="scripts.Design_29_29_DieOnClickorTouch" desc="Kills the actor when it is clicked or touched. Simply attach to the relevant actor and it will die when clicked or touched." description="Kills the actor when it is clicked or touched. Simply attach to the relevant actor and it will die when clicked or touched." design="true" drawOrder="0" id="29" language="" name="Die On Click or Touch" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <boolean default="true" desc="INTERNAL ATTRIBUTE: Controls whether or not the actor can be killed by a click, useful for external control using the attribute changing blocks." dropdown="" fullname="Can Be Killed" hidden="true" id="1" name="_CanBeKilled" order="2"/>
+        <boolean default="false" desc="Whether to recycle the actor, rather than killing it. f you do this, the actor has to have been created as a recycled one." dropdown="" fullname="Recycle Actor?" hidden="false" id="2" name="_RecycleActor" order="1"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
+            <event displayName="Touch Actor" enabled="true" id="2" name="event-device-touch-actor" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_69" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="28" language="" name="ActorEvents_69" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="0.0" desc="" dropdown="" fullname="direccion-pelota" hidden="false" id="1" name="_direccionpelota" order="0"/>
+        <game-attribute default="" desc="" dropdown="" fullname="win" hidden="false" id="2" name="_win" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Click" enabled="true" id="1" name="event-mouse-press-release" order="1" repeats="true"/>
+        </events>
+    </snippet>
 </pack>
