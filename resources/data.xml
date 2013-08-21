@@ -304,4 +304,5 @@
     <custom-block blocktag="custom-25" blocktype="ACTION" code="sayToScene(&quot;Items Remaining&quot;, &quot;SetScoreFont&quot;, ~);" desc="" global="false" gui="Set Score Font To %0" id="25" message="SetScoreFont" name="SetScoreFont" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Font" order="0" type="FONT"/>
     </custom-block>
+    <music desc="" id="72" loop="true" name="silbato" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
 </pack>
