@@ -9,24 +9,14 @@
         <group desc="" id="8" name="pelota"/>
     </groups>
     <cgroups>
-<<<<<<< HEAD
         <cgroup g1="7" g2="8"/>
         <cgroup g1="3" g2="3"/>
         <cgroup g1="0" g2="8"/>
-=======
-        <cgroup g1="1" g2="3"/>
-        <cgroup g1="1" g2="0"/>
-        <cgroup g1="5" g2="8"/>
->>>>>>> 322f2f033406ca3536e34c310a0869dd28719c64
         <cgroup g1="6" g2="8"/>
         <cgroup g1="3" g2="3"/>
         <cgroup g1="0" g2="8"/>
         <cgroup g1="8" g2="8"/>
-<<<<<<< HEAD
         <cgroup g1="8" g2="5"/>
-=======
-        <cgroup g1="8" g2="7"/>
->>>>>>> 322f2f033406ca3536e34c310a0869dd28719c64
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38"/>
