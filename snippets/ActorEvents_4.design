@@ -18,6 +18,9 @@
                     <int id="0" val="0"/>
                     <SOUND eid="14" id="1"/>
                 </play-sound4>
+                <set-game-val-3 comment="false" x="26" y="74">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-3>
             </group>
             <ACTORTYPE eid="4" id="0"/>
             <ACTORTYPE eid="0" id="1"/>
@@ -31,6 +34,9 @@
                     <int id="0" val="0"/>
                     <SOUND eid="14" id="1"/>
                 </play-sound4>
+                <set-game-val-3 comment="false" x="26" y="74">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-3>
             </group>
             <ACTORTYPE eid="4" id="0"/>
             <ACTORTYPE eid="2" id="1"/>
