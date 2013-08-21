@@ -211,4 +211,58 @@
         </event-periodic>
     </group>
     <group eventID="11" id="-1"/>
+    <group eventID="12" id="0">
+        <event-collide-typetotype comment="false" x="15" y="15">
+            <group eventID="12" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="12" id="-1">
+                        <set-attribute comment="false" x="37" y="72">
+                            <ACTOR eid="1" id="0"/>
+                            <int id="1" val="2 Way Vertical Movement"/>
+                            <int id="2" val="_Speed"/>
+                            <int id="3" val="100"/>
+                        </set-attribute>
+                        <dolater comment="false" x="37" y="99">
+                            <group eventID="12" id="-1">
+                                <set-attribute comment="false" x="48" y="126">
+                                    <ACTOR eid="1" id="0"/>
+                                    <int id="1" val="2 Way Vertical Movement"/>
+                                    <int id="2" val="_Speed"/>
+                                    <int id="3" val="30"/>
+                                </set-attribute>
+                            </group>
+                            <int id="0" val="5"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="177">
+                    <group eventID="12" id="-1">
+                        <set-attribute comment="false" x="37" y="197">
+                            <ACTOR eid="2" id="0"/>
+                            <int id="1" val="2 Way Vertical Movement"/>
+                            <int id="2" val="_Speed"/>
+                            <int id="3" val="100"/>
+                        </set-attribute>
+                        <dolater comment="false" x="37" y="224">
+                            <group eventID="12" id="-1">
+                                <set-attribute comment="false" x="48" y="251">
+                                    <ACTOR eid="2" id="0"/>
+                                    <int id="1" val="2 Way Vertical Movement"/>
+                                    <int id="2" val="_Speed"/>
+                                    <int id="3" val="30"/>
+                                </set-attribute>
+                            </group>
+                            <int id="0" val="5"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                </else>
+            </group>
+            <ACTORTYPE eid="4" id="0"/>
+            <ACTORTYPE eid="44" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="12" id="-1"/>
 </groups>
