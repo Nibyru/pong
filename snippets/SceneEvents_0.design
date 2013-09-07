@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
+    <group eventID="17" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="17" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="16" id="-1">
+                        <create-recycled-actor comment="false" x="37" y="70">
+                            <ACTORTYPE eid="75" id="0"/>
+                            <int id="1" val="323"/>
+                            <int id="2" val="210"/>
+                            <int id="3" val="0"/>
+                        </create-recycled-actor>
+                        <set-font-new comment="false" x="37" y="97">
+                            <FONT eid="13" id="0"/>
+                        </set-font-new>
+                        <draw-text comment="false" x="37" y="124">
+                            <int id="0" val="BOCA WIN!!"/>
+                            <int id="1" val="150"/>
+                            <int id="2" val="470"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="10"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="156">
+                    <group eventID="17" id="-1">
+                        <create-recycled-actor comment="false" x="37" y="186">
+                            <ACTORTYPE eid="77" id="0"/>
+                            <int id="1" val="325"/>
+                            <int id="2" val="210"/>
+                            <int id="3" val="0"/>
+                        </create-recycled-actor>
+                        <set-font-new comment="false" x="37" y="213">
+                            <FONT eid="13" id="0"/>
+                        </set-font-new>
+                        <draw-text comment="false" x="37" y="240">
+                            <int id="0" val="RIBER WIN!!!"/>
+                            <int id="1" val="430"/>
+                            <int id="2" val="470"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="10"/>
+                    </eq>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="17" id="-1"/>
     <group eventID="1" id="0">
-        <init comment="false" x="15" y="15">
+        <init comment="false" x="0" y="0">
             <group eventID="1" id="-1">
-                <play-sound4 comment="false" x="26" y="40">
+                <play-sound4 comment="false" x="11" y="25">
                     <int id="0" val="1"/>
                     <SOUND eid="15" id="1"/>
                 </play-sound4>
-                <dolater comment="false" x="26" y="67">
+                <dolater comment="false" x="11" y="52">
                     <group eventID="1" id="-1">
-                        <play-sound4 comment="false" x="37" y="94">
+                        <play-sound4 comment="false" x="22" y="79">
                             <int id="0" val="0"/>
                             <SOUND eid="72" id="1"/>
                         </play-sound4>
@@ -17,31 +68,31 @@
                     <int id="0" val="2"/>
                     <ACTOR eid="lastcreated" id="2"/>
                 </dolater>
-                <dolater comment="false" x="26" y="133">
+                <dolater comment="false" x="11" y="118">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="160">
+                        <create-actor3 comment="false" x="22" y="145">
                             <ACTORTYPE eid="4" id="0"/>
                             <int id="1" val="388"/>
                             <int id="2" val="288"/>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-game-val-2 comment="false" x="37" y="187">
+                        <set-game-val-2 comment="false" x="22" y="172">
                             <int id="0" val="1"/>
                         </set-game-val-2>
-                        <set-val-5-7 comment="false" x="37" y="207">
+                        <set-val-5-7 comment="false" x="22" y="192">
                             <randint comment="false" id="0" x="0" y="0">
                                 <int id="0" val="0"/>
                                 <int id="1" val="360"/>
                             </randint>
                         </set-val-5-7>
-                        <if comment="false" x="37" y="232">
+                        <if comment="false" x="22" y="217">
                             <group eventID="1" id="-1">
-                                <setvel comment="false" x="48" y="267">
+                                <setvel comment="false" x="33" y="252">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <get-val-5-7 comment="false" id="1" x="0" y="0"/>
                                     <int id="2" val="50"/>
                                 </setvel>
-                                <setav comment="false" x="48" y="299">
+                                <setav comment="false" x="33" y="284">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <int id="1" val="40"/>
                                 </setav>
@@ -57,14 +108,14 @@
                                 </noteq>
                             </and>
                         </if>
-                        <else comment="false" x="37" y="338">
+                        <else comment="false" x="22" y="323">
                             <group eventID="1" id="-1">
-                                <setvel comment="false" x="48" y="358">
+                                <setvel comment="false" x="33" y="343">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <int id="1" val="91"/>
                                     <int id="2" val="50"/>
                                 </setvel>
-                                <setav comment="false" x="48" y="385">
+                                <setav comment="false" x="33" y="370">
                                     <ACTOR eid="lastcreated" id="0"/>
                                     <int id="1" val="40"/>
                                 </setav>
@@ -79,11 +130,11 @@
     </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
-        <step comment="false" x="15" y="15">
+        <step comment="false" x="0" y="0">
             <group eventID="2" id="-1">
-                <if comment="false" x="26" y="40">
+                <if comment="false" x="11" y="25">
                     <group eventID="2" id="-1">
-                        <set-val-5-3 comment="false" x="37" y="75">
+                        <set-val-5-3 comment="false" x="22" y="60">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-5-3>
                     </group>
@@ -120,16 +171,36 @@
         </draw>
     </group>
     <group eventID="3" id="-1"/>
+    <group eventID="18" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="18" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <FONT eid="13" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="120"/>
+                    <int id="2" val="60"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="92">
+                    <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="660"/>
+                    <int id="2" val="60"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="18" id="-1"/>
     <group eventID="11" id="0">
-        <event-periodic comment="false" x="15" y="15">
+        <event-periodic comment="false" x="0" y="0">
             <group eventID="11" id="-1">
-                <set-val-5-5 comment="false" x="26" y="40">
+                <set-val-5-5 comment="false" x="11" y="25">
                     <randint comment="false" id="0" x="0" y="0">
                         <int id="0" val="37"/>
                         <int id="1" val="528"/>
                     </randint>
                 </set-val-5-5>
-                <set-val-5-6 comment="false" x="26" y="65">
+                <set-val-5-6 comment="false" x="11" y="50">
                     <roundnew comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                         <randint comment="false" id="1" x="0" y="0">
@@ -138,9 +209,9 @@
                         </randint>
                     </roundnew>
                 </set-val-5-6>
-                <if comment="false" x="26" y="103">
+                <if comment="false" x="11" y="88">
                     <group eventID="10" id="-1">
-                        <create-recycled-actor comment="false" x="37" y="133">
+                        <create-recycled-actor comment="false" x="22" y="118">
                             <ACTORTYPE eid="44" id="0"/>
                             <int id="1" val="385"/>
                             <get-val-5-5 comment="false" id="2" x="0" y="0"/>
@@ -152,9 +223,9 @@
                         <int id="1" val="0"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="177">
+                <if comment="false" x="11" y="162">
                     <group eventID="10" id="-1">
-                        <create-recycled-actor comment="false" x="37" y="207">
+                        <create-recycled-actor comment="false" x="22" y="192">
                             <ACTORTYPE eid="48" id="0"/>
                             <int id="1" val="385"/>
                             <get-val-5-5 comment="false" id="2" x="0" y="0"/>
@@ -166,9 +237,9 @@
                         <int id="1" val="1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="251">
+                <if comment="false" x="11" y="236">
                     <group eventID="10" id="-1">
-                        <create-recycled-actor comment="false" x="37" y="281">
+                        <create-recycled-actor comment="false" x="22" y="266">
                             <ACTORTYPE eid="50" id="0"/>
                             <int id="1" val="385"/>
                             <get-val-5-5 comment="false" id="2" x="0" y="0"/>
@@ -180,9 +251,9 @@
                         <int id="1" val="2"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="325">
+                <if comment="false" x="11" y="310">
                     <group eventID="10" id="-1">
-                        <create-recycled-actor comment="false" x="37" y="355">
+                        <create-recycled-actor comment="false" x="22" y="340">
                             <ACTORTYPE eid="46" id="0"/>
                             <int id="1" val="385"/>
                             <get-val-5-5 comment="false" id="2" x="0" y="0"/>
@@ -194,9 +265,9 @@
                         <int id="1" val="3"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="399">
+                <if comment="false" x="11" y="384">
                     <group eventID="10" id="-1">
-                        <create-recycled-actor comment="false" x="37" y="429">
+                        <create-recycled-actor comment="false" x="22" y="414">
                             <ACTORTYPE eid="52" id="0"/>
                             <int id="1" val="385"/>
                             <get-val-5-5 comment="false" id="2" x="0" y="0"/>
@@ -208,9 +279,9 @@
                         <int id="1" val="4"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="473">
+                <if comment="false" x="11" y="458">
                     <group eventID="10" id="-1">
-                        <create-recycled-actor comment="false" x="37" y="503">
+                        <create-recycled-actor comment="false" x="22" y="488">
                             <ACTORTYPE eid="54" id="0"/>
                             <int id="1" val="385"/>
                             <get-val-5-5 comment="false" id="2" x="0" y="0"/>
@@ -292,55 +363,117 @@
                     <int id="0" val="0"/>
                     <SOUND eid="71" id="1"/>
                 </play-sound4>
-                <if comment="false" x="26" y="74">
+                <die comment="false" x="26" y="74">
+                    <second-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+                <if comment="false" x="26" y="106">
                     <group eventID="12" id="-1">
-                        <scaleTo comment="false" x="37" y="99">
+                        <set-val-5-11 comment="false" x="37" y="136">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-5-11>
+                        <create-recycled-actor comment="false" x="37" y="161">
+                            <ACTORTYPE eid="85" id="0"/>
+                            <get-xy comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="2" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                            <get-xy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="2" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                            <int id="3" val="0"/>
+                        </create-recycled-actor>
+                        <set-val-5-14 comment="false" x="37" y="201">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="2" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                        </set-val-5-14>
+                        <set-val-5-15 comment="false" x="37" y="234">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="2" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                        </set-val-5-15>
+                        <recycle comment="false" x="37" y="267">
                             <ACTOR eid="2" id="0"/>
-                            <int id="1" val="100"/>
-                            <int id="2" val="25"/>
-                            <int id="3" val="1"/>
-                            <int id="4" val="1"/>
-                        </scaleTo>
-                        <dolater comment="false" x="37" y="126">
+                        </recycle>
+                        <dolater comment="false" x="37" y="294">
                             <group eventID="13" id="-1">
-                                <scaleTo comment="false" x="48" y="153">
-                                    <ACTOR eid="2" id="0"/>
-                                    <int id="1" val="100"/>
-                                    <int id="2" val="100"/>
-                                    <int id="3" val="1"/>
-                                    <int id="4" val="1"/>
-                                </scaleTo>
+                                <set-val-5-11 comment="false" x="48" y="321">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-5-11>
+                                <create-actor3 comment="false" x="48" y="346">
+                                    <ACTORTYPE eid="2" id="0"/>
+                                    <get-val-5-14 comment="false" id="1" x="0" y="0"/>
+                                    <get-val-5-15 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
                             </group>
                             <int id="0" val="5"/>
                             <ACTOR eid="lastcreated" id="2"/>
                         </dolater>
                     </group>
-                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <get-val-5-11 comment="false" id="1" x="0" y="0"/>
+                    </and>
                 </if>
-                <else comment="false" x="26" y="204">
-                    <group eventID="12" id="-1">
-                        <scaleTo comment="false" x="37" y="224">
+                <else-if comment="false" x="26" y="402">
+                    <group eventID="13" id="-1">
+                        <set-val-5-10 comment="false" x="37" y="437">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-5-10>
+                        <create-recycled-actor comment="false" x="37" y="462">
+                            <ACTORTYPE eid="83" id="0"/>
+                            <get-xy comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="1" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                            <get-xy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="1" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                            <int id="3" val="0"/>
+                        </create-recycled-actor>
+                        <set-val-5-12 comment="false" x="37" y="502">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="1" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                        </set-val-5-12>
+                        <set-val-5-13 comment="false" x="37" y="535">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="1" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                        </set-val-5-13>
+                        <recycle comment="false" x="37" y="568">
                             <ACTOR eid="1" id="0"/>
-                            <int id="1" val="100"/>
-                            <int id="2" val="25"/>
-                            <int id="3" val="1"/>
-                            <int id="4" val="1"/>
-                        </scaleTo>
-                        <dolater comment="false" x="37" y="251">
+                        </recycle>
+                        <dolater comment="false" x="37" y="595">
                             <group eventID="13" id="-1">
-                                <scaleTo comment="false" x="48" y="278">
-                                    <ACTOR eid="1" id="0"/>
-                                    <int id="1" val="100"/>
-                                    <int id="2" val="100"/>
-                                    <int id="3" val="1"/>
-                                    <int id="4" val="1"/>
-                                </scaleTo>
+                                <set-val-5-10 comment="false" x="48" y="622">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-5-10>
+                                <create-actor3 comment="false" x="48" y="647">
+                                    <ACTORTYPE eid="0" id="0"/>
+                                    <get-val-5-12 comment="false" id="1" x="0" y="0"/>
+                                    <get-val-5-13 comment="false" id="2" x="0" y="0"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
                             </group>
                             <int id="0" val="5"/>
                             <ACTOR eid="lastcreated" id="2"/>
                         </dolater>
                     </group>
-                </else>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <get-val-5-10 comment="false" id="1" x="0" y="0"/>
+                    </and>
+                </else-if>
             </group>
             <ACTORTYPE eid="4" id="0"/>
             <ACTORTYPE eid="46" id="1"/>

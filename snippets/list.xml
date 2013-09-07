@@ -36,13 +36,23 @@
         <number default="0.0" desc="" dropdown="" fullname="marcador1" hidden="false" id="1" name="_marcador1" order="0"/>
         <number default="0.0" desc="" dropdown="" fullname="marcador2" hidden="false" id="2" name="_marcador2" order="1"/>
         <game-attribute default="" desc="" dropdown="" fullname="win" hidden="false" id="3" name="_win" order="2"/>
-        <number default="0" desc="" dropdown="" fullname="posicion-tarjeta" hidden="false" id="5" name="_posiciontarjeta" order="3"/>
-        <number default="0" desc="" dropdown="" fullname="valor-tarjeta" hidden="false" id="6" name="_valortarjeta" order="4"/>
+        <number default="0.0" desc="" dropdown="" fullname="posicion-tarjeta" hidden="false" id="5" name="_posiciontarjeta" order="3"/>
+        <number default="0.0" desc="" dropdown="" fullname="valor-tarjeta" hidden="false" id="6" name="_valortarjeta" order="4"/>
         <number default="0.0" desc="" dropdown="" fullname="direccion-pelota" hidden="false" id="7" name="_direccionpelota" order="5"/>
+        <text default="" desc="" dropdown="" fullname="frase1" hidden="false" id="8" name="_frase1" order="6"/>
+        <text default="" desc="" dropdown="" fullname="frase2" hidden="false" id="9" name="_frase2" order="7"/>
+        <boolean default="true" desc="" dropdown="" fullname="grande1" hidden="false" id="10" name="_grande1" order="8"/>
+        <boolean default="true" desc="" dropdown="" fullname="grande2" hidden="false" id="11" name="_grande2" order="9"/>
+        <number default="0" desc="" dropdown="" fullname="last_position_x1" hidden="false" id="12" name="_lastpositionx" order="10"/>
+        <number default="0" desc="" dropdown="" fullname="last_position_y1" hidden="false" id="13" name="_lastpositiony1" order="11"/>
+        <number default="0" desc="" dropdown="" fullname="last_position_x2" hidden="false" id="14" name="_lastpositionx2" order="12"/>
+        <number default="0" desc="" dropdown="" fullname="last_position_y2" hidden="false" id="15" name="_lastpositiony2" order="13"/>
         <blocks/>
         <events>
+            <event displayName="Drawing" enabled="true" id="17" name="draw" order="17" repeats="true"/>
             <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
             <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="18" name="draw" order="18" repeats="true"/>
             <event displayName="Drawing" enabled="true" id="3" name="draw" order="3" repeats="true"/>
             <event displayName="Every N secs" enabled="true" id="11" name="event-periodic" order="11" repeats="true"/>
             <event displayName="Type - Type" enabled="true" id="12" name="event-collide-typetotype" order="12" repeats="true"/>
@@ -128,9 +138,7 @@
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_11" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="10" language="" name="ActorEvents_11" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
-        <events>
-            <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
-        </events>
+        <events/>
     </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_16" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="11" language="" name="ActorEvents_16" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
@@ -235,5 +243,21 @@
         <events>
             <event displayName="Click" enabled="true" id="1" name="event-mouse-press-release" order="1" repeats="true"/>
         </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_77" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="31" language="" name="ActorEvents_77" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_75" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="30" language="" name="ActorEvents_75" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_83" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="32" language="" name="ActorEvents_83" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_85" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="33" language="" name="ActorEvents_85" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
     </snippet>
 </pack>
