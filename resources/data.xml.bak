@@ -245,18 +245,18 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="2" fixedrot="false" fric="0.0" gid="8" id="4" ignoreg="true" inertia="0.01" ldamp="0.0" lw="false" mass="0.01" name="pelota" oid="-1" pausable="true" rest="1.0" shared="false" sprite="5" static="false" touchable="true">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" desc="" height="191" id="1" name="player1" shared="false" width="52">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="191" id="0" loop="true" name="Animation 0" numframes="1" originx="30" originy="109" width="52">
-            <circle data="28,3,2" density="0.1" fric="0.2" gid="-1000" id="1" name="Circle" rest="0.0" sensor="false"/>
-            <poly data="4,14,31,44,31,44,181,14,181" density="0.1" fric="0.2" gid="-1000" id="2" name="Box" rest="0.0" sensor="false"/>
-            <circle data="28,2,163" density="0.1" fric="0.2" gid="5" id="3" name="Circle" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" desc="" height="127" id="1" name="player1" shared="false" width="35">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="127" id="0" loop="true" name="Animation 0" numframes="1" originx="30" originy="109" width="35">
+            <circle data="16,1,94" density="0.1" fric="0.2" gid="-1000" id="1" name="Circle" rest="0.0" sensor="false"/>
+            <poly data="4,8,19,26,19,26,104,8,104" density="0.1" fric="0.2" gid="-1000" id="2" name="Box" rest="0.0" sensor="false"/>
+            <circle data="16,2,1" density="0.1" fric="0.2" gid="-1000" id="3" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" desc="" height="191" id="3" name="riber" shared="false" width="52">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="191" id="0" loop="true" name="Animation 0" numframes="1" originx="30" originy="109" width="52">
-            <poly data="4,15,36,45,36,45,186,15,186" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-            <circle data="28,3,1" density="0.1" fric="0.2" gid="-1000" id="1" name="Circle" rest="0.0" sensor="false"/>
-            <circle data="28,1,162" density="0.1" fric="0.2" gid="-1000" id="2" name="Circle" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" desc="" height="128" id="3" name="riber" shared="false" width="35">
+        <anim across="1" atlasID="-1" down="1" durations="100" height="128" id="0" loop="true" name="Animation 0" numframes="1" originx="30" originy="109" width="35">
+            <poly data="4,9,19,27,19,27,104,9,104" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <circle data="16,2,1" density="0.1" fric="0.2" gid="-1000" id="1" name="Circle" rest="0.0" sensor="false"/>
+            <circle data="16,1,95" density="0.1" fric="0.2" gid="-1000" id="2" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="0" id="2" ignoreg="true" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="riber" oid="-1" pausable="true" rest="0.0" shared="false" sprite="3" static="false" touchable="true">

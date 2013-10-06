@@ -16,13 +16,15 @@
     </regions>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="0" id="0" name="player1 1" sx="0.56666666" sy="0.6055046" x="63" y="191" z="1"/>
-        <actor a="0.0" aid="2" c="false" group="0" id="2" name="riber 2" sx="0.6" sy="0.6146789" x="670" y="192" z="1"/>
         <actor a="0.0" aid="3" c="false" group="6" id="6" name="barra1 3" sx="1.0" sy="1.0" x="1" y="0" z="1"/>
         <actor a="0.0" aid="4" c="false" group="6" id="8" name="barra2 4" sx="1.0" sy="1.0" x="0" y="569" z="1"/>
         <actor a="0.0" aid="5" c="false" group="8" id="4" name="pelota 5" sx="1.0" sy="1.0" x="371" y="-44" z="1"/>
         <actor a="0.0" aid="6" c="false" group="5" id="11" name="arco1 6" sx="1.0" sy="1.0" x="-1" y="35" z="1"/>
         <actor a="0.0" aid="7" c="false" group="5" id="16" name="arco2 7" sx="1.0" sy="1.0" x="787" y="38" z="1"/>
+        <actor a="0.0" aid="8" c="false" group="0" id="0" name="boca 8" sx="1.0" sy="1.0" x="88" y="236" z="1"/>
+        <actor a="0.0" aid="9" c="false" group="0" id="2" name="riber 9" sx="1.0" sy="1.0" x="683" y="236" z="1"/>
+        <actor a="0.0" aid="10" c="false" group="0" id="83" name="boca2 10" sx="1.0" sy="1.0" x="810" y="-7" z="1"/>
+        <actor a="0.0" aid="11" c="false" group="0" id="85" name="riber2 11" sx="1.0" sy="1.0" x="809" y="87" z="1"/>
     </actors>
     <snippets/>
     <terrain/>
