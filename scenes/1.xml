@@ -12,8 +12,10 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="42" name="jugar 1" sx="1.0" sy="1.0" x="44" y="62" z="0"/>
-        <actor a="0.0" aid="2" c="false" group="3" id="61" name="info 2" sx="1.0" sy="1.0" x="632" y="447" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="42" name="jugar 1" sx="1.0" sy="1.0" x="31" y="62" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="61" name="info 2" sx="1.0" sy="1.0" x="633" y="448" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="65" name="nibyru 3" sx="0.436" sy="0.428" x="-98" y="221" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="67" name="nibyru2 4" sx="0.41025642" sy="0.4025974" x="-119" y="498" z="0"/>
     </actors>
     <snippets/>
     <terrain/>

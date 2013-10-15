@@ -15,6 +15,18 @@
         <actor a="0.0" aid="1" c="false" group="3" id="63" name="atras 1" sx="1.0" sy="1.0" x="644" y="458" z="0"/>
         <actor a="0.0" aid="2" c="false" group="3" id="65" name="nibyru 2" sx="0.304" sy="0.304" x="-145" y="242" z="0"/>
         <actor a="0.0" aid="3" c="false" group="3" id="67" name="nibyru2 3" sx="0.4029304" sy="0.38961038" x="-169" y="502" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="7" id="44" name="amarilla1 4" sx="1.0" sy="1.0" x="29" y="17" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="7" id="48" name="amarilla2 5" sx="1.0" sy="1.0" x="29" y="69" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="7" id="50" name="amarilla3 6" sx="1.0" sy="1.0" x="29" y="120" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="7" id="46" name="roja1 7" sx="1.0" sy="1.0" x="29" y="171" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="7" id="52" name="roja2 8" sx="1.0" sy="1.0" x="29" y="222" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="7" id="54" name="roja3 9" sx="1.0" sy="1.0" x="29" y="272" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="73" name="dato1 10" sx="1.0" sy="1.0" x="57" y="12" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="75" name="dato2 11" sx="1.0" sy="1.0" x="43" y="65" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="77" name="dato3 12" sx="1.0" sy="1.0" x="-72" y="118" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="79" name="dato4 13" sx="1.0" sy="1.0" x="19" y="168" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="81" name="dato5 14" sx="1.0" sy="1.0" x="-42" y="221" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="83" name="dato6 15" sx="1.0" sy="1.0" x="32" y="269" z="0"/>
     </actors>
     <snippets/>
     <terrain/>

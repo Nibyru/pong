@@ -23,8 +23,8 @@
         <actor a="0.0" aid="7" c="false" group="5" id="16" name="arco2 7" sx="1.0" sy="1.0" x="787" y="38" z="1"/>
         <actor a="0.0" aid="8" c="false" group="0" id="0" name="boca 8" sx="1.0" sy="1.0" x="88" y="236" z="1"/>
         <actor a="0.0" aid="9" c="false" group="0" id="2" name="riber 9" sx="1.0" sy="1.0" x="683" y="236" z="1"/>
-        <actor a="0.0" aid="10" c="false" group="0" id="83" name="boca2 10" sx="1.0" sy="1.0" x="810" y="-7" z="1"/>
-        <actor a="0.0" aid="11" c="false" group="0" id="85" name="riber2 11" sx="1.0" sy="1.0" x="809" y="87" z="1"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="91" name="jugar2 10" sx="1.0" sy="1.0" x="44" y="454" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="93" name="main 11" sx="1.0" sy="1.0" x="654" y="455" z="0"/>
     </actors>
     <snippets/>
     <terrain/>
