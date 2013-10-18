@@ -56,7 +56,11 @@
             <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
             <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
             <event displayName="Drawing" enabled="true" id="18" name="draw" order="18" repeats="true"/>
+<<<<<<< HEAD
             <event displayName="Paused" enabled="true" id="23" name="event-paused" order="23" repeats="true"/>
+=======
+            <event displayName="Boolean" enabled="true" id="21" name="event-att-bool" order="21" repeats="true"/>
+>>>>>>> 51542e8faca8f5c1b32176a5b548469251de64ce
             <event displayName="Every N secs" enabled="true" id="11" name="event-periodic" order="11" repeats="true"/>
             <event displayName="Type - Type" enabled="true" id="12" name="event-collide-typetotype" order="12" repeats="true"/>
             <event displayName="Copy of Type - Type" enabled="true" id="13" name="event-collide-typetotype" order="13" repeats="true"/>
@@ -77,8 +81,8 @@
         <animation default="" desc="" dropdown="" fullname="Up Animation (Idle)" hidden="false" id="41" name="_UpAnimationIdle" order="10"/>
         <boolean default="true" desc="If selected, the actor will not be able to turn while moving." dropdown="" fullname="Stop Turning" hidden="false" id="46" name="_StopTurning" order="8"/>
         <animation default="" desc="" dropdown="" fullname="Down Animation" hidden="false" id="44" name="_DownAnimation" order="13"/>
-        <boolean default="true" desc="If selected, the animation attributes will be used, otherwise they will be ignored." dropdown="" fullname="Use Animations" hidden="false" id="45" name="_UseAnimations" order="9"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <boolean default="true" desc="If selected, the animation attributes will be used, otherwise they will be ignored." dropdown="" fullname="Use Animations" hidden="false" id="45" name="_UseAnimations" order="9"/>
         <blocks/>
         <events>
             <event displayName="Updated" enabled="true" id="3" name="step" order="4" repeats="true"/>
