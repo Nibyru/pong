@@ -9,14 +9,13 @@
         <group desc="" id="8" name="pelota"/>
     </groups>
     <cgroups>
-        <cgroup g1="1" g2="0"/>
-        <cgroup g1="1" g2="3"/>
+        <cgroup g1="7" g2="8"/>
         <cgroup g1="0" g2="8"/>
         <cgroup g1="0" g2="6"/>
         <cgroup g1="8" g2="8"/>
-        <cgroup g1="8" g2="7"/>
-        <cgroup g1="8" g2="6"/>
         <cgroup g1="8" g2="5"/>
+        <cgroup g1="8" g2="6"/>
+        <cgroup g1="1" g2="3"/>
         <cgroup g1="3" g2="3"/>
     </cgroups>
     <input>
@@ -37,8 +36,8 @@
     <attributes>
         <number cid="-1" id="2" name="cantidad-pelotas" save="true" value="0.0"/>
         <number cid="-1" id="0" name="marcador1" save="true" value="0.0"/>
-        <bool cid="-1" id="3" name="jugo-jugador1" save="true" value="false"/>
         <number cid="-1" id="1" name="marcador2" save="true" value="0.0"/>
+        <bool cid="-1" id="3" name="jugo-jugador1" save="true" value="false"/>
     </attributes>
     <collisions>
         <poly id="1" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
