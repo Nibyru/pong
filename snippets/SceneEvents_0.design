@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
+    <group eventID="17" id="0">
+        <draw comment="false" x="0" y="0">
+            <group eventID="17" id="-1">
+                <if comment="false" x="11" y="25">
+                    <group eventID="16" id="-1">
+                        <set-font-new comment="false" x="22" y="55">
+                            <FONT eid="13" id="0"/>
+                        </set-font-new>
+                        <set-val-5-18 comment="false" x="22" y="82">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-5-18>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </moreeq>
+                </if>
+                <if comment="false" x="11" y="119">
+                    <group eventID="17" id="-1">
+                        <set-font-new comment="false" x="22" y="149">
+                            <FONT eid="13" id="0"/>
+                        </set-font-new>
+                        <set-val-5-18 comment="false" x="22" y="176">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-5-18>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </moreeq>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="17" id="-1"/>
     <group eventID="1" id="0">
         <init comment="false" x="0" y="0">
             <group eventID="1" id="-1">
@@ -124,6 +159,46 @@
         </step>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="18" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="18" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <FONT eid="13" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="120"/>
+                    <int id="2" val="60"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="92">
+                    <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="660"/>
+                    <int id="2" val="60"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="18" id="-1"/>
+    <group eventID="23" id="0">
+        <event-paused comment="false" x="0" y="0">
+            <group eventID="23" id="-1">
+                <create-actor3 comment="false" x="11" y="27">
+                    <ACTORTYPE eid="91" id="0"/>
+                    <int id="1" val="281"/>
+                    <int id="2" val="456"/>
+                    <int id="3" val="1"/>
+                </create-actor3>
+                <create-actor3 comment="false" x="11" y="54">
+                    <ACTORTYPE eid="93" id="0"/>
+                    <int id="1" val="422"/>
+                    <int id="2" val="456"/>
+                    <int id="3" val="1"/>
+                </create-actor3>
+            </group>
+            <int id="0" val="0"/>
+        </event-paused>
+    </group>
+    <group eventID="23" id="-1"/>
     <group eventID="11" id="0">
         <event-periodic comment="false" x="0" y="0">
             <group eventID="11" id="-1">
@@ -471,79 +546,4 @@
         </event-collide-typetotype>
     </group>
     <group eventID="15" id="-1"/>
-    <group eventID="17" id="0">
-        <draw comment="false" x="0" y="0">
-            <group eventID="17" id="-1">
-                <if comment="false" x="11" y="25">
-                    <group eventID="16" id="-1">
-                        <set-font-new comment="false" x="22" y="55">
-                            <FONT eid="13" id="0"/>
-                        </set-font-new>
-                        <set-val-5-18 comment="false" x="22" y="82">
-                            <true comment="false" id="0" x="0" y="0"/>
-                        </set-val-5-18>
-                    </group>
-                    <moreeq comment="false" id="0" x="0" y="0">
-                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="2"/>
-                    </moreeq>
-                </if>
-                <if comment="false" x="11" y="119">
-                    <group eventID="17" id="-1">
-                        <set-font-new comment="false" x="22" y="149">
-                            <FONT eid="13" id="0"/>
-                        </set-font-new>
-                        <set-val-5-18 comment="false" x="22" y="176">
-                            <true comment="false" id="0" x="0" y="0"/>
-                        </set-val-5-18>
-                    </group>
-                    <moreeq comment="false" id="0" x="0" y="0">
-                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="2"/>
-                    </moreeq>
-                </if>
-            </group>
-        </draw>
-    </group>
-    <group eventID="17" id="-1"/>
-    <group eventID="18" id="0">
-        <draw comment="false" x="15" y="15">
-            <group eventID="18" id="-1">
-                <set-font-new comment="false" x="26" y="40">
-                    <FONT eid="13" id="0"/>
-                </set-font-new>
-                <draw-text comment="false" x="26" y="67">
-                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                    <int id="1" val="120"/>
-                    <int id="2" val="60"/>
-                </draw-text>
-                <draw-text comment="false" x="26" y="92">
-                    <get-game-val-1 comment="false" id="0" x="0" y="0"/>
-                    <int id="1" val="660"/>
-                    <int id="2" val="60"/>
-                </draw-text>
-            </group>
-        </draw>
-    </group>
-    <group eventID="18" id="-1"/>
-    <group eventID="23" id="0">
-        <event-paused comment="false" x="0" y="0">
-            <group eventID="23" id="-1">
-                <create-actor3 comment="false" x="11" y="27">
-                    <ACTORTYPE eid="91" id="0"/>
-                    <int id="1" val="281"/>
-                    <int id="2" val="456"/>
-                    <int id="3" val="1"/>
-                </create-actor3>
-                <create-actor3 comment="false" x="11" y="54">
-                    <ACTORTYPE eid="93" id="0"/>
-                    <int id="1" val="422"/>
-                    <int id="2" val="456"/>
-                    <int id="3" val="1"/>
-                </create-actor3>
-            </group>
-            <int id="0" val="0"/>
-        </event-paused>
-    </group>
-    <group eventID="23" id="-1"/>
 </groups>
